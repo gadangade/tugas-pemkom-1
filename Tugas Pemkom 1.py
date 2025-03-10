@@ -1,6 +1,9 @@
-a=input(int("a="))
-b=input(int("b="))
-c=input(int("c="))
+a=input("a=")
+b=input("b=")
+c=input("c=")
+a=int(a)
+b=int(b)
+c=int(c)
 d=b**2-4*a*c
 x1=(-b+(d)**(1/2))/(2*a)
 x2=(-b-(d)**(1/2))/(2*a)
